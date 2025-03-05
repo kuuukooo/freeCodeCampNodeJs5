@@ -1,34 +1,35 @@
 <!DOCTYPE html>
 
 <html>
-   <head>
-      <title>File Metadata</title>
+  <head>
+      <title>Metadatos de archivos</title>
       <link rel="shortcut icon" href="https://cdn.freecodecamp.org/universal/favicons/favicon-32x32.png" type="image/x-icon"/>
       <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" type="text/css">
       <link href="/public/style.css" rel="stylesheet" type="text/css">
-   </head>
+  </head>
 
-   <body>
+  <body>
       <div class="container">
-        <h1>API Project: File Metadata Microservice</h1>
+        <h1>Proyecto de API: Microservicio para metadatos de archivos</h1>
 
-        <h2>Usage:</h2>
+        <h2>Uso:</h2> 
         <p>
-          Please Upload a File ...
+          Porfa sube un archivo...
         </p>
         <div class="view">
           <h3 id="output"></h3>
           <form enctype="multipart/form-data" method="POST" action="/api/fileanalyse">
-            <input id="inputfield" type="file" name="upfile">
-            <input id="button" type="submit" value="Upload">
+            <input id="inputfield" type="file" name="uploaded_file">
+            <input id="button" type="submit" value="Subir">
           </form>
         </div>
       </div>
       <div class="footer">
         <p>
-          by 
+          para
           <a href="http://www.freecodecamp.com">freeCodeCamp</a>
         </p>
+        <p>Codeado por <a href="https://github.com/kuuukooo">kuko</a> :D</p>
       </div>
-   </body>
+  </body>
 </html>
