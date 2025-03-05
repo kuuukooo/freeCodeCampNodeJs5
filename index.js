@@ -19,7 +19,7 @@ app.get("/api/", function (req, res) {
   res.send("Sube un archivo");
 });
 
-app.post("/api/fileanalyse", upload.single("uploaded_file"), (req, res) => {
+app.post("/api/fileanalyse", upload.single("upfile"), (req, res) => {
   console.log(req.file);
   const { originalname, mimetype, size } = req.file;
   res.json({
